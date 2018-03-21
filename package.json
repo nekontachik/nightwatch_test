@@ -1,0 +1,27 @@
+{
+  "name": "nightwatch_test",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000n\u0000i\u0000g\u0000h\u0000t\u0000w\u0000a\u0000t\u0000c\u0000h\u0000_\u0000t\u0000e\u0000s\u0000t\u0000\r\u0000 \u0000#\u0000S\u0000e\u0000c\u0000o\u0000n\u0000d\u0000 \u0000i\u0000n\u0000t\u0000r\u0000o\u0000d\u0000u\u0000c\u0000t\u0000i\u0000o\u0000n\u0000 \u0000t\u0000o\u0000 \u0000n\u0000e\u0000w\u0000 \u0000J\u0000S\u0000 \u0000w\u0000o\u0000r\u0000l\u0000d\u0000",
+  "main": "index.js",
+  "dependencies": {
+    "nightwatch": "^0.9.20"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.36.0",
+    "selenium-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nightwatch": "nightwatch -c tests/nightwatch.conf.js -e chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekontachik/nightwatch_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekontachik/nightwatch_test/issues"
+  },
+  "homepage": "https://github.com/nekontachik/nightwatch_test#readme"
+}
